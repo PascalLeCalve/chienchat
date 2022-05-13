@@ -1,0 +1,30 @@
+body {
+  font-size: 16em;
+  text-align: center;
+}
+@font-face {
+  font-family: "Hurricane";
+  src: url(../fonts/Hurricane-Regular.ttf) format("truetype");
+}
+
+header {
+  background-color: navy;
+  color: white;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+footer {
+  text-align: center;
+  background-color: navy;
+  color: white;
+}
+.spacer {
+  padding-bottom: 2.5%;
+}
+
+.nav_menu {
+  position: relative;
+  z-index: 100;
+}

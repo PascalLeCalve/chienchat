@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link rel="stylesheet" href="../style/chien.css" />
+    <link rel="stylesheet" href="../style/menu.css" />
+    <link rel="stylesheet" href="../style/global.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <title>chien</title>
+  </head>
+  <body>
+    <header>
+      <h1>Les Animaux</h1>
+    </header>
+    <div class="spacer"></div>
+    <nav class="nav_menu">
+      <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+
+        <ul class="menu__box">
+          <li>
+            <a class="menu__item" href="../HTML/chat.html">Chat</a>
+          </li>
+          <li>
+            <a class="menu__item" href="../HTML/chien.html">Chien</a>
+          </li>
+          <li><a class="menu__item" href="oiseaux.html">Oiseau</a></li>
+          <li><a class="menu__item" href="lapin.html">Lapin</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section>
+      <h2 id="chien">Chien</h2>
+      <br />
+      <div>
+        <img class="img-fluid" src="../images/chien.jpg" alt="image de chien" />
+      </div>
+      <div class="spacer"></div>
+      <div class="son">
+        <audio controls src="../son/Aboiement.mp3"></audio>
+      </div>
+      <div class="spacer"></div>
+      <div class="deco2">
+        <p>
+          Le Chien (Canis lupus familiaris) est la sous-espèce domestique de
+          Canis lupus (Loup gris), un mammifère de la famille des Canidés
+          (Canidae), laquelle comprend également le dingo, chien domestique
+          retourné à l'état sauvage. Le Loup est la première espèce animale à
+          avoir été domestiquée par l'Homme pour l'usage de la chasse dans une
+          société humaine paléolithique qui ne maîtrise alors ni l'agriculture
+          ni l'élevage. La lignée du chien s'est différenciée génétiquement de
+          celle du Loup gris il y a environ 100 000 ans1, et les plus anciens
+          restes confirmés de la lignée des chiens modernes sont vieux, selon
+          les sources, de 33 000 ans,ou de 12 000 ans,et la chèvre seront
+          domestiquées vers −10 000. Depuis la Préhistoire, le chien a
+          accompagné l'être humain durant toute sa phase de sédentarisation,
+          marquée par l'apparition des premières civilisations agricoles. C'est
+          à ce moment qu'il a acquis la capacité de digérer l'amidon6, et que
+          ses fonctions d'auxiliaire d'Homo sapiens se sont étendues. Ces
+          nouvelles fonctions ont entraîné une différenciation accrue de la
+          sous-espèce et l'apparition progressive de races canines
+          identifiables. Le chien est aujourd'hui utilisé à la fois comme animal
+          de travail et comme animal de compagnie. Son instinct de meute, sa
+          domestication précoce et les caractéristiques comportementales qui en
+          découlent lui valent familièrement le surnom de « meilleur ami de
+          l'Homme ».
+        </p>
+      </div>
+
+      <acticle>
+        <h2>La nouriture des chiens</h2>
+        <div class="spacer"></div>
+        <div class="deco2">
+          <p>
+            Un chien adulte en bonne santé a besoin de 35 % de viande, de 25 %
+            de légumes, de 30 % de céréales et de 10 % de nutriments. Le chiot
+            en pleine croissance a besoin quant à lui de 50 % de viande, de 25 %
+            de riz, de 10 % de légumes et de 10 % de nutriments essentiels.
+          </p>
+        </div>
+      </acticle>
+    </section>
+    <div class="spacer"></div>
+
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        <li class="page-item">
+          <a class="page-link" href="chat.html">Previous</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="chat.html">1</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="chien.html">2</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="oiseaux.html">3</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="lapin.html">4</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="oiseaux.html">Next</a>
+        </li>
+      </ul>
+    </nav>
+    <footer>
+      <div>
+        © 2022. Tous droits réservés. <br />
+        <a href="https://www.facebook.com/pascal.lecalve.75"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            fill="currentColor"
+            class="bi bi-facebook"
+            viewbox="0 0 16 16"
+            color="white"
+          >
+            <path
+              d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+            />
+          </svg>
+        </a>
+      </div>
+    </footer>
+  </body>
+  <script src="../js/menuHamburger.js"></script>
+</html>
